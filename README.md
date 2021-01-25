@@ -14,19 +14,27 @@
 - Simple
 - Available everywhere
 
-## Jekyll
+## Jekyll or Eleventy?
+
 ### Why Jekyll
 
-- Free
-- Platfrom-independent
+- Simple
 - Markdown
 
 ### Why not Jekyll
 
 - I don't want the Ruby stack on my machine (gem bundler)
+
+### Why Eleventy (11ty)
+
 - Eleventy looks cooler, although it seems harder (no out of the box layout for example)
 - This forces me to look into CSS - my not so favorite language...
 
+### Why not Eleventy (11ty)
+
+- no out of the box layout
+
+## Jekyll
 ### Install Jekyll
 
 - Windows: <https://jekyllrb.com/docs/installation/windows/>
