@@ -130,3 +130,19 @@ Watching…
  ------------------------------------
 [Browsersync] Serving files from: _site
 ```
+
+Your site has been generated in you new folder in a subfolder `_site`. 
+
+Now you have to checkout your Github folder, it must be like this: `HERE-YOUR-GITHUB-NAME.github.io`. 
+
+> If you do not have a github-pages-repo yet, do this: Create a repo. Important `HERE-YOUR-GITHUB-NAME` must be your exact github name. Add `.github.io` and create the repo `HERE-YOUR-GITHUB-NAME.github.io`. Set the option to add a README.md.
+
+Check your github page: <https://HERE-YOUR-GITHUB-NAME.github.io/>. Mine is this: <https://boeschenstein.github.io/>. It shoud already work and shows the content of the README.md in your repo.
+
+Now do a checkout of this repo and copy the content of the folder `_site` to your repo folder. Push it.
+
+Check your github page: <https://HERE-YOUR-GITHUB-NAME.github.io/>. Mine is this: <https://boeschenstein.github.io/>
+
+If you see 'Hi', it worked. Congrats, you created the base of your new blog!
+
+Now we can start to extend and beautify our blog.
