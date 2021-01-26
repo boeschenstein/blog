@@ -29,7 +29,14 @@
 
 - Eleventy looks cooler, although it seems harder (no out of the box layout for example)
 - This forces me to look into CSS - my not so favorite language...
-
+- Out-of-the-box support for many templating engines: <https://www.11ty.dev/docs/languages/>
+  - MarkDown
+  - Nunjucks
+  - Liquid
+  - Handlebars
+  - Mustache
+  - ...
+  
 ### Why not Eleventy (11ty)?
 
 - no out of the box layout
@@ -71,12 +78,14 @@ Add `encoding: utf-8` to your `_config.yml` file
 
 Install Eleventy: <https://www.11ty.dev/>. 
 
+Create your first blog: Open a new folder and run:
+
 ```bash
 npm init -y
 npm install --save-dev @11ty/eleventy
 ```
 
-Create your first blog: Open a new folder and create 2 files: 
+In this folder, create 2 files: 
 
 a) index.html
 
@@ -90,6 +99,7 @@ a) index.html
   </body>
 </html>
 ```
+
 b) README.md
 
 ```bash
@@ -99,5 +109,24 @@ b) README.md
 Run it:
 
 ```bash
-npx @11ty/eleventy
+npx @11ty/eleventy --serve
+```
+
+As you can see in the Output, you can run your site right away: `http://localhost:8080`
+
+```bash
+c:\Work.proj\blog_>npx @11ty/eleventy --serve
+Writing _site/index.html from ./index.html.
+Writing _site/README/index.html from ./README.md.
+Wrote 2 files in 0.10 seconds (v0.11.1)
+Watching…
+[Browsersync] Access URLs:
+ ------------------------------------
+       Local: http://localhost:8080
+    External: http://172.19.80.1:8080
+ ------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ------------------------------------
+[Browsersync] Serving files from: _site
 ```
