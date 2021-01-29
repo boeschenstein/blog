@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install eleventy blog</title>
+    <meta name="description" content="This is a post about creating this blog.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Your Blog Name">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Your Blog Name">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Your Blog Name</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <!-- Delete this message -->
+      <div class="warning">
+        <ol>
+          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
+          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
+          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
+        </ol>
+        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+      </div>
+      <!-- Stop deleting -->
+
+      <h1>Install eleventy blog</h1>
+
+<h2 id="install-eleventy">Install Eleventy <a class="direct-link" href="#install-eleventy">#</a></h2>
+<p>Install Eleventy: <a href="https://www.11ty.dev/">https://www.11ty.dev/</a>.</p>
+<p>Create your first blog: Open a new folder and run:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> init -y<br><span class="token function">npm</span> <span class="token function">install</span> --save-dev @11ty/eleventy</code></pre>
+<p>In this folder, create 2 files:</p>
+<p>a) index.html</p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token name">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Page title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Hi<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>b) <a href="http://README.md">README.md</a></p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># Page header</span></code></pre>
+<p>Run it:</p>
+<pre class="language-bash"><code class="language-bash">npx @11ty/eleventy --serve</code></pre>
+<p>As you can see in the Output, you can run your site right away: <code>http://localhost:8080</code></p>
+<pre class="language-bash"><code class="language-bash">c:<span class="token punctuation">\</span>Work.proj<span class="token punctuation">\</span>blog_<span class="token operator">></span>npx @11ty/eleventy --serve<br>Writing _site/index.html from ./index.html.<br>Writing _site/README/index.html from ./README.md.<br>Wrote <span class="token number">2</span> files <span class="token keyword">in</span> <span class="token number">0.10</span> seconds <span class="token punctuation">(</span>v0.11.1<span class="token punctuation">)</span><br>Watching…<br><span class="token punctuation">[</span>Browsersync<span class="token punctuation">]</span> Access URLs:<br> ------------------------------------<br>       Local: http://localhost:8080<br>    External: http://172.19.80.1:8080<br> ------------------------------------<br>          UI: http://localhost:3001<br> UI External: http://localhost:3001<br> ------------------------------------<br><span class="token punctuation">[</span>Browsersync<span class="token punctuation">]</span> Serving files from: _site</code></pre>
+<p>Your site has been generated in you new folder in a subfolder <code>_site</code>.</p>
+<p>Now you have to checkout your Github folder, it must be like this: <code>HERE-YOUR-GITHUB-NAME.github.io</code>.</p>
+<blockquote>
+<p>If you do not have a github-pages-repo yet, do this: Create a repo. Important <code>HERE-YOUR-GITHUB-NAME</code> must be your exact github name. Add <code>.github.io</code> and create the repo <code>HERE-YOUR-GITHUB-NAME.github.io</code>. Set the option to add a <a href="http://README.md">README.md</a>.</p>
+</blockquote>
+<p>Check your github page: <a href="https://HERE-YOUR-GITHUB-NAME.github.io/">https://HERE-YOUR-GITHUB-NAME.github.io/</a>. Mine is this: <a href="https://boeschenstein.github.io/">https://boeschenstein.github.io/</a>. It should already work and shows the content of the <a href="http://README.md">README.md</a> in your repo.</p>
+<p>Now do a checkout of this repo and copy the content of the folder <code>_site</code> to your repo folder. Push it.</p>
+<p>Check your github page: <a href="https://HERE-YOUR-GITHUB-NAME.github.io/">https://HERE-YOUR-GITHUB-NAME.github.io/</a>. Mine is this: <a href="https://boeschenstein.github.io/">https://boeschenstein.github.io/</a></p>
+<p>If you see 'Hi', it worked. Congrats, you created the base of your new blog!</p>
+<p>Now we can start to extend and beautify our blog.</p>
+
+
+<hr>
+<ul><li>Next: <a href="/posts/install-eleventy/">Install eleventy blog</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/firstpost/ -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>boeschenstein.net</title>
+	<subtitle>I am writing about my experiences about software and other stuff.</subtitle>
+	
+	<link href="https://boeschenstein.net/feed/feed.xml" rel="self"/>
+	<link href="https://boeschenstein.net/"/>
+	<updated>2021-01-29T00:00:00Z</updated>
+	<id>https://boeschenstein.net/</id>
+	<author>
+		<name>Patrik Böschenstein</name>
+		<email>blog@boeschenstein.net</email>
+	</author>
+	
+	<entry>
+		<title>Install Eleventy blog</title>
+		<link href="https://boeschenstein.net/posts/install-eleventy/"/>
+		<updated>2021-01-29T00:00:00Z</updated>
+		<id>https://boeschenstein.net/posts/install-eleventy/</id>
+		<content type="html">&lt;h2 id=&quot;install-eleventy&quot;&gt;Install Eleventy &lt;a class=&quot;direct-link&quot; href=&quot;https://boeschenstein.net/posts/install-eleventy/#install-eleventy&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Install Eleventy: &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;https://www.11ty.dev/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Create your first blog: Open a new folder and run:&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init -y&lt;br /&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --save-dev @11ty/eleventy&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this folder, create 2 files:&lt;/p&gt;
+&lt;p&gt;a) index.html&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;token name&quot;&gt;doctype&lt;/span&gt; &lt;span class=&quot;token name&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Page title&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Hi&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;b) &lt;a href=&quot;http://readme.md/&quot;&gt;README.md&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Page header&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run it:&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;npx @11ty/eleventy --serve&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see in the Output, you can run your site right away: &lt;code&gt;http://localhost:8080&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;c:&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Work.proj&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;blog_&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;npx @11ty/eleventy --serve&lt;br /&gt;Writing _site/index.html from ./index.html.&lt;br /&gt;Writing _site/README/index.html from ./README.md.&lt;br /&gt;Wrote &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; files &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.10&lt;/span&gt; seconds &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;v0.11.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;Watching…&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Browsersync&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Access URLs:&lt;br /&gt; ------------------------------------&lt;br /&gt;       Local: http://localhost:8080&lt;br /&gt;    External: http://172.19.80.1:8080&lt;br /&gt; ------------------------------------&lt;br /&gt;          UI: http://localhost:3001&lt;br /&gt; UI External: http://localhost:3001&lt;br /&gt; ------------------------------------&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Browsersync&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; Serving files from: _site&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Your site has been generated in you new folder in a subfolder &lt;code&gt;_site&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now you have to checkout your Github repository, it must be like this: &lt;code&gt;HERE-YOUR-GITHUB-NAME.github.io&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you do not have a github-pages-repo yet, do this: Create a repo. Important &lt;code&gt;HERE-YOUR-GITHUB-NAME&lt;/code&gt; must be your exact github name. Add &lt;code&gt;.github.io&lt;/code&gt; and create the repo &lt;code&gt;HERE-YOUR-GITHUB-NAME.github.io&lt;/code&gt;. Set the option to add a &lt;a href=&quot;http://readme.md/&quot;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Check your github page: &lt;a href=&quot;https://here-your-github-name.github.io/&quot;&gt;https://HERE-YOUR-GITHUB-NAME.github.io/&lt;/a&gt;. Mine is this: &lt;a href=&quot;https://boeschenstein.github.io/&quot;&gt;https://boeschenstein.github.io/&lt;/a&gt;. It should already work and shows the content of the &lt;a href=&quot;http://readme.md/&quot;&gt;README.md&lt;/a&gt; in your repo.&lt;/p&gt;
+&lt;p&gt;Now do a checkout of this repo and copy the content of the folder &lt;code&gt;_site&lt;/code&gt; to your repo folder. Push it.&lt;/p&gt;
+&lt;p&gt;Check your github page: &lt;a href=&quot;https://here-your-github-name.github.io/&quot;&gt;https://HERE-YOUR-GITHUB-NAME.github.io/&lt;/a&gt;. Mine is this: &lt;a href=&quot;https://boeschenstein.github.io/&quot;&gt;https://boeschenstein.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you see &#39;Hi&#39;, it worked. Congrats, you created the base of your new blog!&lt;/p&gt;
+&lt;p&gt;Now we can start to extend and beautify our blog.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://boeschenstein.net/posts/install-eleventy/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/about/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/posts/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/page-list/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/tags/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://boeschenstein.net/tags/Blog/</loc>
+    <lastmod>2021-01-29</lastmod>
+  </url>
+</urlset>
